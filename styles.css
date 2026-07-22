@@ -1,0 +1,120 @@
+*{
+    font-family: "Source Code Pro", monospace;
+}
+
+*::selection{
+    color:#010203;
+    background-color: hsl(10, 97%, 45%) ;
+}
+
+h1:hover{
+    color: hsl(50, 97%, 45%);
+}
+
+h1::selection{
+    background-color:hsl(50, 97%, 45%);
+    color:#010203;
+}
+
+input::selection{
+    color:hsl(10, 97%, 45%);
+}
+
+input:active{
+    background-color: #383e42;
+    color: #010203;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: none;
+    color:hsl(10, 97%, 45%);
+}
+
+body{
+    background-color: #010203;
+    color: #5e676e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    min-height: 95vh;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 3em;
+    margin-bottom: -10px;
+    transition: all, 0.25s;
+    cursor:context-menu;
+}
+
+h4{
+    font-weight: normal;
+    margin-bottom: 5px;
+    transition: color 0.25s;
+    cursor:context-menu;
+}
+
+h4:hover{
+    color:  hsl(10, 97%, 45%);
+}
+
+input{
+    background-color: #010203; 
+    color: #5e676e;
+    border: 2px solid #5e676e;
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    transition: all, 0.25s;
+    
+}
+
+#start{
+    margin-top: 2px;
+    margin-bottom: 9px;
+}
+
+p{
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+button{
+    background-color: #121212;
+    color: #5e676e;
+    border: 0;
+    padding: 12px;
+    border-radius: 9px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: color, background-color, 0.25s;
+
+}
+
+button:hover{
+    color: #383e42 ;
+}
+
+button:active{
+    background-color: #383e42;
+    color: #010203;
+}
+
+/*
+background - #010203
+main text - #5e676e
+background butoane/chenare - #121212
+text hover - #383e42
+active btn bg - #383e42
+active btn text - #010203
+
+font - Source Code Pro
+*/
