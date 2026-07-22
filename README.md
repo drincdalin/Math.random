@@ -22,7 +22,7 @@ Descarci fisierele si deschizi `index.html` cu restul fisierelor in acelasi fold
 
 ## m-am chinuit mult la design, so... uite ce fain ii
 
-![Screenshot Math.random()](./Math.random().png)
+![Screenshot Math.random()](./screenshot.math.png)
 
 Daca interactionati cu jocul, o sa aveti parte de mai multe culori etc.
 
