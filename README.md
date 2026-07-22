@@ -22,8 +22,9 @@ Descarci fisierele si deschizi `index.html` cu restul fisierelor in acelasi fold
 
 ## m-am chinuit mult la design, so... uite ce fain ii
 
-<img href="Math.random().png">
-daca interactionati cu jocul, o sa aveti parte de mai multe culori etc.
+![Screenshot Math.random()](./Math.random().png)
+
+Daca interactionati cu jocul, o sa aveti parte de mai multe culori etc.
 
 ## ganduri finale
 Sper sa va placa, enjoy!
